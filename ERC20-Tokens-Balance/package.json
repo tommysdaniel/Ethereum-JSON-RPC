@@ -2,7 +2,7 @@
   "name": "erc20-tokens-balance",
   "version": "1.0.0",
   "description": "Display all ERC20 balances from ETHEREUM network using public address and Object Array list",
-  "main": "erc20_tokns_balance.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
