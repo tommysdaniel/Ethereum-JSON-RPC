@@ -19,12 +19,12 @@ var getEtherbalance = (ether_address, cb) => {
         Request.post({url: ethereum_endpoint,json: data}, (err, response, body) => {
             if(err)
                 cb("Error occured: " + err, null);
-            else
+            else {
                 if(body.error)
                     cb("Error occured: " + body.error.message, null);
                 else
                     cb(null, new BigNumber(body.result).div(new BigNumber(10).pow(18)).toString());
-            
+			}
         });
     }
 }
