@@ -1,0 +1,24 @@
+{
+  "name": "erc20-tokens-balance",
+  "version": "1.0.0",
+  "description": "Display all ERC20 balances from ETHEREUM network using public address and Object Array list",
+  "main": "erc20_tokns_balance.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ether",
+    "balance",
+    "ethereum",
+    "erc20",
+    "jsonrpc",
+    "datasignature"
+  ],
+  "author": "Chrysostomos Daniel",
+  "license": "ISC",
+  "dependencies": {
+    "bignumber.js": "^5.0.0",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2"
+  }
+}
