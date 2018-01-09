@@ -1,0 +1,24 @@
+{
+  "name": "etherbalance",
+  "version": "1.0.0",
+  "description": "Display Ether balance from ETHEREUM network using public address",
+  "main": "etherbalance.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ether",
+    "getbalance",
+    "balance",
+    "ethereum",
+    "jsonrpc",
+    "jsonrpc",
+    "2.0"
+  ],
+  "author": "Chrysostomos Daniel",
+  "license": "ISC",
+  "dependencies": {
+    "bignumber.js": "^5.0.0",
+    "request": "^2.83.0"
+  }
+}
