@@ -1,0 +1,23 @@
+{
+  "name": "generate-ethereum-wallet",
+  "version": "1.0.0",
+  "description": "Generate new Ethereum wallet function",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "wallet",
+    "ethereum",
+    "generate",
+    "wallet",
+    "JSONRPC",
+    "2.0"
+  ],
+  "author": "Chrysostomos Daniel",
+  "license": "ISC",
+  "dependencies": {
+    "ethereumjs-util": "^5.1.3",
+    "qrcode": "^1.2.0"
+  }
+}
